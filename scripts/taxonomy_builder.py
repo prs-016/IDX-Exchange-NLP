@@ -10,10 +10,7 @@ from nltk.util import ngrams
 import pandas as pd
 
 for pkg in ("punkt", "punkt_tab"):
-    try:
-        nltk.data.find(f"tokenizers/{pkg}")
-    except LookupError:
-        nltk.download(pkg)
+    nltk.download(pkg, quiet=True)
 
 
 def build_taxonomy(csv_path="data/processed/listing_sample.csv", top_n=200):
