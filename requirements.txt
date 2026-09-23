@@ -1,0 +1,6 @@
+mysql-connector-python==8.0.33
+pandas==2.0.3
+nltk==3.8.1
+spacy==3.6.0
+pytest==7.4.0
+jupyter==1.0.0
