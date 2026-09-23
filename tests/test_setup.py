@@ -3,15 +3,12 @@ import mysql.connector
 import pandas as pd
 import nltk
 
-
 def test_python_version():
     assert sys.version_info >= (3, 11), "Python 3.11+ required"
     print("✓ Python version OK")
 
-
 def test_packages():
     print("✓ All required packages installed")
-
 
 def test_docker():
     try:
@@ -23,9 +20,8 @@ def test_docker():
         )
         conn.close()
         print("✓ MySQL connection successful")
-    except Exception:
+    except:
         print("⚠ MySQL not running - start with: docker-compose up -d")
-
 
 if __name__ == "__main__":
     test_python_version()
