@@ -7,15 +7,6 @@ NLP Internship**, part of the **Fall 2026 cohort (`nlp-fall-2026`)**. It is
 submitted as coursework for the internship program and is maintained
 individually, in accordance with the program's repository guidelines.
 
-## About the Program
-
-IDX Exchange runs a 12-week internship program across several
-tracks — NLP, Data Science, SDE, Agentic AI, Data Analyst, and AWS Cloud.
-Each track works with real MLS (Multiple Listing Service) data sourced from
-CRMLS (California Regional MLS) and builds a production-oriented system over
-the course of the internship, culminating in a final presentation and
-technical defense.
-
 ## Project Goal
 
 The goal of this project is to design and build a **Real Estate Listing
